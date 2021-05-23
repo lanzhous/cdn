@@ -165,10 +165,6 @@ $(function () {
         e.preventDefault();
         $('html,body').animate({ scrollTop:0});
     });
-
-    //请保留作者版权
-    console.log('电影先生开源版v1.0.1，本源码永久免费更新，作者QQ：602524950，模板交流群：872882160，源码只可用于学习交流禁止从事违法行为');
-
 });
 
 
