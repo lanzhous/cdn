@@ -1,0 +1,2 @@
+<!--    可以是整个网站变成灰色的     -->
+html {-webkit-filter: grayscale(100%);filter:progid:DXImageTransform.Microsoft.BasicImage(graysale=1);} 
