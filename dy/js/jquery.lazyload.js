@@ -30,7 +30,7 @@
         srcset: "data-srcset",
         selector: ".lazyload"
     };
-
+ 
     /**
     * Merge two or more objects. Returns a new object.
     * @private
