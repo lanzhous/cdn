@@ -29,7 +29,7 @@ function __age_play_ep_scroll(){
   const _ep0_pos = _sel_lis[0].offsetTop;
   const _ep_pos = _sel_lis[_iEP].offsetTop;
   $(_t_sel_movurl + ' ul').scrollTop(_ep_pos - _ep0_pos);
-  
+   
   //
   if(_refresl){
     const _t_sel_ep = _t_sel_movurl + ' ul li:nth-child(' + (_iEP + 1) + ')';
