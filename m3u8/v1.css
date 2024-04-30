@@ -1,0 +1,124 @@
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('https://mdn.alipayobjects.com/open_content/afts/img/A*BFHRQZmCGs0AAAAAAAAAAAAAAVx1AQ');
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 500px;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .title {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 28px;
+            color: #333;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        .form-group label {
+            font-weight: bold;
+            color: #666;
+            flex: 0 0 10%;
+            margin-right: 10px;
+            text-align: right;
+        }
+
+        .form-group input[type="file"],
+        .form-group input[type="text"],
+        .form-group input[type="password"],
+        .form-group select {
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            flex: 1;
+            box-sizing: border-box;
+        }
+
+        .form-group .search-container {
+            display: flex;
+            align-items: center;
+            flex: 1;
+            margin-left: 10px;
+        }
+
+        .form-group .search-container input[type="text"] {
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            flex: 1;
+            box-sizing: border-box;
+        }
+
+        .form-group .search-container .search-icon {
+            padding: 10px;
+            background-color: #1E90FF;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-left: 5px;
+        }
+
+        .btn {
+            background-color: #1E90FF;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            width: 100%;
+            display: block;
+            margin-top: 20px;
+        }
+
+        .btn:hover {
+            background-color: #007FFF;
+        }
+
+        .message {
+            margin-top: 20px;
+            padding: 10px;
+            border-radius: 5px;
+            color: #fff;
+        }
+
+        .success {
+            background-color: #90EE90;
+        }
+
+        .error {
+            background-color: #FF6347;
+        }
+
+        .copy-button {
+            background-color: #1E90FF;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .copy-button:hover {
+            background-color: #007FFF;
+        }

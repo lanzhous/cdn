@@ -1,0 +1,79 @@
+ body {
+                    font-family: Arial, sans-serif;
+                    background-image: url('https://mdn.alipayobjects.com/open_content/afts/img/A*BFHRQZmCGs0AAAAAAAAAAAAAAVx1AQ');
+                    background-size: cover;
+                    background-position: center;
+                    margin: 0;
+                    padding: 0;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    min-height: 100vh; /* 保证内容始终垂直居中 */
+                }
+
+                .container {
+                    width: 90%; /* 使用百分比以响应不同设备的屏幕宽度 */
+                    max-width: 400px; /* 最大宽度限制 */
+                    background-color: rgba(255, 255, 255, 0.8); /* 添加透明度 */
+                    padding: 30px;
+                    border-radius: 10px;
+                    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+                }
+
+                .title {
+                    text-align: center;
+                    margin-bottom: 30px;
+                    font-size: 28px;
+                    color: #333;
+                }
+
+                .form-group {
+                    margin-bottom: 20px;
+                }
+
+                .form-group label {
+                    font-weight: bold;
+                    color: #666;
+                }
+
+                .form-group input[type="password"] {
+                    display: block;
+                    margin-top: 5px;
+                    border-radius: 5px;
+                    border: 1px solid #ccc;
+                    padding: 10px;
+                    width: 100%;
+                    box-sizing: border-box;
+                }
+
+                .btn {
+                    display: block; /* 修改按钮为块级元素，使其占据整行 */
+                    width: 100%; /* 按钮宽度100% */
+                    background-color: #1E90FF;
+                    color: #fff;
+                    padding: 10px 20px;
+                    border: none;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    transition: background-color 0.3s;
+                }
+
+                .btn:hover {
+                    background-color: #007FFF;
+                }
+
+                /* 添加一个新的类，用于使按钮单独居中 */
+                .btn-center {
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 20px; /* 根据需要调整按钮的顶部边距 */
+                }
+
+                /* 媒体查询：针对小屏幕设备进行调整 */
+                @media screen and (max-width: 600px) {
+                    .container {
+                        width: 100%; /* 宽度设为100% */
+                        border-radius: 0; /* 移除圆角，使其更适应小屏幕 */
+                        box-shadow: none; /* 移除阴影 */
+                    }
+                }
